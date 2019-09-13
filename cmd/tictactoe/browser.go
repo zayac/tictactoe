@@ -5,13 +5,13 @@ package main
 import (
 	"fmt"
 	"html/template"
-	"syscall/js"
 
+	"github.com/gopherjs/gopherjs/js"
 	"github.com/shurcooL/htmlg"
 	ttt "github.com/shurcooL/tictactoe"
 	"golang.org/x/net/html"
 	"golang.org/x/net/html/atom"
-	"honnef.co/go/js/dom/v2"
+	"honnef.co/go/js/dom"
 )
 
 var document = dom.GetWindow().Document().(dom.HTMLDocument)
@@ -23,14 +23,12 @@ func displayGameStart(board ttt.Board, players [2]player, cellClick chan<- int) 
 	document.SetTitle("Tic-Tac-Toe")
 
 	// When a board cell is clicked, send its [0, 9) index to cellClick channel.
-	js.Global().Set("CellClick", js.FuncOf(func(_ js.Value, args []js.Value) interface{} {
-		index := args[0].Int()
+	js.Global.Set("CellClick", func(index int) {
 		select {
 		case cellClick <- index:
 		default:
 		}
-		return nil
-	}))
+	})
 }
 
 func displayTurnStart(board ttt.Board, players [2]player, active player, condition ttt.Condition) {
