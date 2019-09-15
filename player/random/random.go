@@ -8,15 +8,15 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/shurcooL/tictactoe"
+	"github.com/zayac/tictactoe"
 )
 
 // NewPlayer creates a random player of tic-tac-toe.
 func NewPlayer() (tictactoe.Player, error) {
 	gophers := []template.URL{
-		"https://raw.githubusercontent.com/shurcooL/tictactoe/master/player/random/gopher-0.png",
-		"https://raw.githubusercontent.com/shurcooL/tictactoe/master/player/random/gopher-1.png",
-		"https://raw.githubusercontent.com/shurcooL/tictactoe/master/player/random/gopher-2.png",
+		"https://raw.githubusercontent.com/zayac/tictactoe/master/player/random/gopher-0.png",
+		"https://raw.githubusercontent.com/zayac/tictactoe/master/player/random/gopher-1.png",
+		"https://raw.githubusercontent.com/zayac/tictactoe/master/player/random/gopher-2.png",
 	}
 	rand := rand.New(rand.NewSource(time.Now().UnixNano()))
 	return player{

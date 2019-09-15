@@ -8,7 +8,7 @@ import (
 
 	"github.com/gopherjs/gopherjs/js"
 	"github.com/shurcooL/htmlg"
-	ttt "github.com/shurcooL/tictactoe"
+	ttt "github.com/zayac/tictactoe"
 	"golang.org/x/net/html"
 	"golang.org/x/net/html/atom"
 	"honnef.co/go/js/dom"

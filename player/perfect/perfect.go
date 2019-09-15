@@ -12,7 +12,7 @@ import (
 	"math/rand"
 	"time"
 
-	ttt "github.com/shurcooL/tictactoe"
+	ttt "github.com/zayac/tictactoe"
 )
 
 // NewPlayer creates a perfect player.

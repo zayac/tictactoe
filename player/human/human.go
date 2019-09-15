@@ -4,7 +4,7 @@ package human
 import (
 	"context"
 
-	"github.com/shurcooL/tictactoe"
+	"github.com/zayac/tictactoe"
 )
 
 // NewPlayer creates a human-controlled player.

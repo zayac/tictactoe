@@ -1,3 +1,5 @@
+github.com/gopherjs/gopherjs v0.0.0-20190915194858-d3ddacdb130f h1:TyqzGm2z1h3AGhjOoRYyeLcW4WlW81MDQkWa+rx/000=
+github.com/gopherjs/gopherjs v0.0.0-20190915194858-d3ddacdb130f/go.mod h1:wJfORRmW1u3UXTncJ5qlYoELFm8eSnnEO6hX4iZ3EWY=
 github.com/shurcooL/component v0.0.0-20190503025225-90263df59ff6 h1:R73zAA2oyxnjzfn/JahAuR7sVROSV7RCyfD4pc4TAro=
 github.com/shurcooL/component v0.0.0-20190503025225-90263df59ff6/go.mod h1:XhFIlyj5a1fBNx5aJTbKoIq0mNaPvOagO+HjB3EtxrY=
 github.com/shurcooL/htmlg v0.0.0-20190503024804-b6326af49ef6 h1:kXXs9Xnfv5gU7KLKiOE3AQgaRUUXchcXnO2rP3fZ5Ao=
@@ -7,5 +9,7 @@ golang.org/x/net v0.0.0-20190620200207-3b0461eec859 h1:R/3boaszxrf1GEUWTVDzSKVwL
 golang.org/x/net v0.0.0-20190620200207-3b0461eec859/go.mod h1:z5CRVTTTmAJ677TzLLGU+0bjPO0LkuOLi4/5GtJWs/s=
 golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
 golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
+honnef.co/go/js/dom v0.0.0-20190526011328-ebc4cf92d81f h1:b3Q9PqH+5NYHfIjNUEN+f8lYvBh9A25AX+kPh8dpYmc=
+honnef.co/go/js/dom v0.0.0-20190526011328-ebc4cf92d81f/go.mod h1:sUMDUKNB2ZcVjt92UnLy3cdGs+wDAcrPdV3JP6sVgA4=
 honnef.co/go/js/dom/v2 v2.0.0-20190526011328-ebc4cf92d81f h1:rxpwPRn5voIeZmBGJvlhLwWo9fSZSciAAfHz6sAHGCY=
 honnef.co/go/js/dom/v2 v2.0.0-20190526011328-ebc4cf92d81f/go.mod h1:H5R0jAIe6IchQE778FS2QcrNVgS4vPFb0HPb72n/IJI=

@@ -9,13 +9,13 @@ import (
 	"log"
 	"time"
 
-	ttt "github.com/shurcooL/tictactoe"
+	ttt "github.com/zayac/tictactoe"
 )
 
 import (
-	playerx "github.com/shurcooL/tictactoe/player/random"
+	playerx "github.com/zayac/tictactoe/player/random"
 	// vs
-	playero "github.com/shurcooL/tictactoe/player/perfect"
+	playero "github.com/zayac/tictactoe/player/perfect"
 )
 
 // timePerTurn is the time each player gets to think per turn.

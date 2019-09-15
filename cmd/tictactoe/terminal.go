@@ -5,7 +5,7 @@ package main
 import (
 	"fmt"
 
-	ttt "github.com/shurcooL/tictactoe"
+	ttt "github.com/zayac/tictactoe"
 )
 
 func displayGameStart(board ttt.Board, players [2]player, cellClick chan<- int) {

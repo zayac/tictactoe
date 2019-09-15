@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/shurcooL/tictactoe"
+	"github.com/zayac/tictactoe"
 )
 
 // NewPlayer creates a bad player.

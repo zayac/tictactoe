@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	ttt "github.com/shurcooL/tictactoe"
-	"github.com/shurcooL/tictactoe/player/random"
+	ttt "github.com/zayac/tictactoe"
+	"github.com/zayac/tictactoe/player/random"
 )
 
 func Test(t *testing.T) {
